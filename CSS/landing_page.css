@@ -29,8 +29,9 @@ header {
 
 /* Navbar */
 .navbar {
-  position: sticky;
+  position:fixed;
   top: 0;
+  width: 100%;
   z-index: 10000;
   background: rgba(0,0,0,0.6);
   backdrop-filter: saturate(140%) blur(8px);
